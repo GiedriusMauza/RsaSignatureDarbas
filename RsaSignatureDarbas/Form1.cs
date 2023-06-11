@@ -87,9 +87,6 @@ namespace RsaSignatureDarbas
                         $"Socket client received acknowledgment: \"{response}\"");
                     break;
                 }
-                // Sample output:
-                //     Socket client sent message: "Hi friends 👋!<|EOM|>"
-                //     Socket client received acknowledgment: "<|ACK|>"
             }
 
             client.Shutdown(SocketShutdown.Both);
